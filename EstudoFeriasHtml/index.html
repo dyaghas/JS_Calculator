@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html ang="en">
+    <head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,
+		initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible"
+		content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        
+        <title>JS Calculator</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h1  class="display-4 text-center">JS Calculator</h1>
+                    <br>
+
+                    <form name="calculator" id="calculator">
+                        <table>
+                            <tr>
+                                <td colspan="4" class="display_td"><!--calculator display-->
+                                    <input type="text" name="display" id="display" disabled>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="btn_td"><input type="button" class="btn_calc operator" name="parenthesis" 
+                                    value="(" onclick="calculator.display.value +='('"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc operator" name="parenthesis_2" 
+                                    value=")" onclick="calculator.display.value +=')'"></td>
+                                <td class="btn_td"></td>
+                            </tr>
+
+                            <tr><!--first row-->
+                                <td class="btn_td"><input type="button" class="btn_calc btn_number" name="one" value="1" 
+                                    onclick="calculator.display.value +='1'"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc btn_number" name="two" value="2" 
+                                    onclick="calculator.display.value +='2'"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc btn_number" name="three" value="3" 
+                                     onclick="calculator.display.value +='3'"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc operator" name="plus" value="+"
+                                    onclick="calculator.display.value +='+'"></td>
+                            </tr>
+
+                            <tr><!--second row-->
+                                <td class="btn_td"><input type="button" class="btn_calc btn_number" name="four" value="4" 
+                                    onclick="calculator.display.value +='4'"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc btn_number" name="five" value="5" 
+                                    onclick="calculator.display.value +='5'"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc btn_number" name="six" value="6" 
+                                     onclick="calculator.display.value +='6'"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc operator" name="minus" value="-"
+                                    onclick="calculator.display.value +='-'"></td>
+                            </tr>
+
+                            <tr><!--third row-->
+                                <td class="btn_td"><input type="button" class="btn_calc btn_number" name="seven" value="7" 
+                                    onclick="calculator.display.value +='7'"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc btn_number" name="eight" value="8" 
+                                    onclick="calculator.display.value +='8'"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc btn_number" name="nine" value="9" 
+                                     onclick="calculator.display.value +='9'"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc operator" name="multiplication" value="*"
+                                    onclick="calculator.display.value +='*'"></td>
+                            </tr>
+
+                            <tr><!--fourth row-->
+                                <td class="btn_td"><input type="button" id="clear" class="btn_calc" name="clear" value="c" 
+                                    onclick="calculator.display.value =''"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc btn_number" name="zero" value="0" 
+                                    onclick="calculator.display.value +='0'"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc btn_equals" name="doit" value="=" 
+                                    onclick="calculator.display.value = eval(calculator.display.value)"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc operator" name="division" value="/"
+                                    onclick="calculator.display.value +='/'"></td>
+                            </tr>
+                        </table>
+                    </form>
+
+                    <br><br>
+
+                    <a href="weight.html" clas="btn" role="button">Weight converter</a>
+                    <a href="speed.html" clas="btn" role="button">Speed converter</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

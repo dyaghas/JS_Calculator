@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ang="en">
+    <head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,
+		initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible"
+		content="ie=edge">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+
+		<title>Speed converter</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h1 class="display-4 text-center">Speed Converter</h1>
+                    <br>
+                    <form>
+                        <div class="form-group">
+                            <input 
+							id="valueInput"
+							type="number" 
+							class="form control form-control-lg"
+							placeholder="Enter a value">
+                        </div>
+                    </form>
+                    <div id="output">
+						<div id="card_calc" class="card mb-2">
+							<div class="card-block">
+								<h4>ms:</h4>
+								<div id="msOutput"></div>
+							</div>
+						</div>
+
+						<div id="card_calc" class="card mb-2">
+							<div class="card-block">
+								<h4>km/h:</h4>
+								<div id="kmOutput"></div>
+							</div>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <script>
+            document.getElementById('output').style.visibility = 'hidden';
+            document.getElementById('valueInput').addEventListener('input',
+            function(e){
+                let speed = e.target.value;
+                document.getElementById('output').style.visibility = 'visible';
+                document.getElementById('msOutput').innerHTML = (speed/2.237).toFixed(2);
+                document.getElementById('kmOutput').innerHTML = (speed*1.60934).toFixed(2);
+            })
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,106 @@
+body{
+    margin-top:70px;
+    background-color:#131424;
+}
+
+h1{
+    color:#00bcff;
+}
+
+div{
+    text-align: center;
+}
+
+a{
+    background-color: #00bcff;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 30px;
+    transition-duration: 0.5s;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+a:hover{
+    background-color: #0091c4;
+    padding-left: 20px;
+}
+
+#card_calc{
+    background-color: #00bcff;
+    color: black;
+}
+
+#calculator{
+    height: 120%;
+    width: 100%;
+    display: block;
+    border-style: solid;
+    border-color: #00bcff;
+}
+
+table{
+    height: 100%;
+    width: 100%;
+}
+
+#display{
+    height: 60%;
+    width: 90%;
+    background-color: #002633;
+    border-color: #00bcff;
+    color: white;
+    padding: 5%;
+}
+
+.btn_number{
+    background-color: #00bcff;
+    transition-duration: 0.5s;
+}
+
+.btn_number:hover{
+    background-color: #0091c4;
+}
+
+.btn_calc{
+    height: 100%;
+    width: 100%;
+    border-style: none;
+}
+
+.operator{
+    background-color: #0091c4;
+    transition-duration: 0.5s;
+}
+
+.operator:hover{
+    background-color: #00bcff;
+}
+
+#clear{
+    background-color: #cf7067;
+    transition-duration: 0.5s;
+}
+
+.btn_equals{
+    background-color: #00bcff;
+    transition-duration: 0.5s;
+}
+
+.btn_equals:hover{
+    background-color: #0091c4;
+}
+
+#clear:hover{
+    background-color: #c7392c;
+}
+
+.display_td{
+    height: 25%;
+}
+
+.btn_td{
+    height: 15%;
+}
