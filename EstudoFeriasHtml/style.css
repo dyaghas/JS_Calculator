@@ -1,6 +1,7 @@
 body{
     margin-top:70px;
     background-color:#131424;
+    color: white;
 }
 
 h1{
@@ -26,6 +27,7 @@ a{
 a:hover{
     background-color: #0091c4;
     padding-left: 20px;
+    color: black;
 }
 
 #card_calc{
@@ -103,4 +105,13 @@ table{
 
 .btn_td{
     height: 15%;
+}
+
+.form_a{
+    transition-duration: 0.2s;
+    border: none;
+}
+
+.form_a:focus{
+    border-bottom: 3px solid #00bcff;
 }

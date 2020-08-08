@@ -18,20 +18,24 @@
 				<div class="col-md-6 offset-md-3">
 					<h1 class="display-4 text-center">Weight Converter</h1>
 					<br>
+
+					<!--Input-->
 					<form>
 						<div class="form-group">
 							<input 
 							id="valueInput"
 							type="number" 
-							class="form control form-control-lg"
+							class="form control form-control-lg form_a"
 							placeholder="Enter a value">
 						</div>
 					</form>
-					<div id="output">
+
+					<!--output-->
+					<div id="output" class="form-group">
 						<div id="card_calc" class="card mb-2">
 							<div class="card-block">
 								<h4>Grams:</h4>
-								<div id="gramsOutput"></div>
+								<div id="gramsOutput" contenteditable="true"></div>
 							</div>
 						</div>
 
@@ -49,6 +53,7 @@
 							</div>
 						</div>
 					</div>
+					
 				</div>
 			</div>
 		</div>
