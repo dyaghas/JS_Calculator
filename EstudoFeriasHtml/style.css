@@ -1,11 +1,12 @@
 body{
     margin-top:70px;
-    background-color:#131424;
+    background-color:#37c5db;
     color: white;
 }
 
 h1{
-    color:#00bcff;
+    color:black;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 div{
@@ -13,34 +14,43 @@ div{
 }
 
 a{
-    background-color: #00bcff;
     color: black;
-    border: 2px solid black;
-    border-radius: 8px;
     font-size: 30px;
     transition-duration: 0.5s;
+    border-radius: 10px;
     display: block;
     padding-top: 10px;
     padding-bottom: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-shadow: 5px  5px 25px rgba(0, 0, 0, 0.2);
 }
 
 a:hover{
-    background-color: #0091c4;
     padding-left: 20px;
     color: black;
+    text-decoration: none;
+}
+
+a:active{
+    background-color: #00bcff;
 }
 
 #card_calc{
-    background-color: #00bcff;
+    background-color: #37c5db;
+    border: none;
+    border-radius: 10px;
     color: black;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.05),
+                 5px  5px 25px rgba(0, 0, 0, 0.2);
 }
 
 #calculator{
     height: 120%;
     width: 100%;
     display: block;
-    border-style: solid;
-    border-color: #00bcff;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.05),
+                 5px  5px 25px rgba(0, 0, 0, 0.2);
 }
 
 table{
@@ -58,12 +68,18 @@ table{
 }
 
 .btn_number{
-    background-color: #00bcff;
+    background-color: #37c5db;
     transition-duration: 0.5s;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.05),
+                 5px  5px 25px rgba(0, 0, 0, 0.2);
 }
 
 .btn_number:hover{
     background-color: #0091c4;
+}
+
+.btn_number:active{
+    background-color: #00bcff; 
 }
 
 .btn_calc{
@@ -73,30 +89,48 @@ table{
 }
 
 .operator{
-    background-color: #0091c4;
+    background-color: #37c5db;
     transition-duration: 0.5s;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.05),
+                 5px  5px 25px rgba(0, 0, 0, 0.2);
 }
 
 .operator:hover{
-    background-color: #00bcff;
+    background-color: #0091c4;
 }
 
-#clear{
-    background-color: #cf7067;
-    transition-duration: 0.5s;
+.operator:active{
+    background-color: #00bcff;
 }
 
 .btn_equals{
-    background-color: #00bcff;
+    background-color: #37c5db;
     transition-duration: 0.5s;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.05),
+                 5px  5px 25px rgba(0, 0, 0, 0.2);
 }
 
 .btn_equals:hover{
     background-color: #0091c4;
 }
 
+.btn_equals:active{
+    background-color: #00bcff;
+}
+
+#clear{
+    background-color: #cf7067;
+    transition-duration: 0.5s;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.05),
+                 5px  5px 25px rgba(0, 0, 0, 0.2);
+}
+
 #clear:hover{
     background-color: #c7392c;
+}
+
+#clear:active{
+    background-color: #cf7067;
 }
 
 .display_td{
