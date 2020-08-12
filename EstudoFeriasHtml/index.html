@@ -13,6 +13,12 @@
     </head>
 
     <body>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="weight.html" clas="btn" role="button">Weight converter</a>
+            <a href="speed.html" clas="btn" role="button">Speed converter</a>
+        </div> 
+        <br><br>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
@@ -28,10 +34,14 @@
                             </tr>
 
                             <tr><!--first row-->
-                                <td colspan="2" class="btn_td"><input type="button" class="btn_calc operator" name="parenthesis" 
+                                <td class="btn_td"><input type="button" class="btn_calc operator" name="parenthesis" 
                                     value="(" onclick="calculator.display.value +='('"></td>
-                                <td colspan="2" class="btn_td"><input type="button" class="btn_calc operator" name="parenthesis_2" 
+                                <td class="btn_td"><input type="button" class="btn_calc operator" name="parenthesis_2" 
                                     value=")" onclick="calculator.display.value +=')'"></td>
+                                <td class="btn_td"><input type="button" id="clear" class="btn_calc" name="clear" value="c" 
+                                    onclick="calculator.display.value =''"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc operator" name="plus" value="+"
+                                    onclick="calculator.display.value +='+'"></td>
                             </tr>
 
                             <tr><!--second row-->
@@ -41,8 +51,8 @@
                                     onclick="calculator.display.value +='2'"></td>
                                 <td class="btn_td"><input type="button" class="btn_calc btn_number" name="three" value="3" 
                                      onclick="calculator.display.value +='3'"></td>
-                                <td class="btn_td"><input type="button" class="btn_calc operator" name="plus" value="+"
-                                    onclick="calculator.display.value +='+'"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc operator" name="minus" value="-"
+                                    onclick="calculator.display.value +='-'"></td>
                             </tr>
 
                             <tr><!--third row-->
@@ -52,8 +62,8 @@
                                     onclick="calculator.display.value +='5'"></td>
                                 <td class="btn_td"><input type="button" class="btn_calc btn_number" name="six" value="6" 
                                      onclick="calculator.display.value +='6'"></td>
-                                <td class="btn_td"><input type="button" class="btn_calc operator" name="minus" value="-"
-                                    onclick="calculator.display.value +='-'"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc operator" name="multiplication" value="*"
+                                    onclick="calculator.display.value +='*'"></td>
                             </tr>
 
                             <tr><!--fourth row-->
@@ -63,28 +73,21 @@
                                     onclick="calculator.display.value +='8'"></td>
                                 <td class="btn_td"><input type="button" class="btn_calc btn_number" name="nine" value="9" 
                                      onclick="calculator.display.value +='9'"></td>
-                                <td class="btn_td"><input type="button" class="btn_calc operator" name="multiplication" value="*"
-                                    onclick="calculator.display.value +='*'"></td>
-                            </tr>
-
-                            <tr><!--fifth row-->
-                                <td class="btn_td"><input type="button" id="clear" class="btn_calc" name="clear" value="c" 
-                                    onclick="calculator.display.value =''"></td>
-                                <td class="btn_td"><input type="button" class="btn_calc btn_number" name="zero" value="0" 
-                                    onclick="calculator.display.value +='0'"></td>
-                                <td class="btn_td"><input type="button" class="btn_calc btn_equals" name="doit" value="=" 
-                                    onclick="calculator.display.value = eval(calculator.display.value)"></td>
                                 <td class="btn_td"><input type="button" class="btn_calc operator" name="division" value="/"
                                     onclick="calculator.display.value +='/'"></td>
                             </tr>
+
+                            <tr><!--fifth row-->
+                                <td class="btn_td"><input type="button" id="point" class="btn_calc operator" name="point" value="." 
+                                    onclick="calculator.display.value +='.'"></td>
+                                <td class="btn_td"><input type="button" class="btn_calc btn_number" name="zero" value="0" 
+                                    onclick="calculator.display.value +='0'"></td>
+                                <td colspan="2"class="btn_td"><input type="button" class="btn_calc btn_equals" name="doit" value="=" 
+                                    onclick="calculator.display.value = eval(calculator.display.value)"></td>
+                            </tr>
                         </table>
                     </form>
-
-                    <br><br><br>
-
-                    <a href="weight.html" clas="btn" role="button">Weight converter</a>
-                    <br><br><br>
-                    <a href="speed.html" clas="btn" role="button">Speed converter</a>
+                    <br><br><br><br><br><br><br><br>
                 </div>
             </div>
         </div>
