@@ -1,5 +1,4 @@
 body{
-    margin-top:70px;
     background-color:#37c5db;
     color: white;
 }
@@ -14,26 +13,38 @@ div{
 }
 
 a{
+    background-color: white;
     color: black;
-    font-size: 30px;
+    border-left-style: solid;
+    font-size: 15px;
     transition-duration: 0.5s;
-    border-radius: 10px;
-    display: block;
     padding-top: 10px;
     padding-bottom: 15px;
     text-decoration: none;
     font-family: sans-serif;
-    box-shadow: 5px  5px 25px rgba(0, 0, 0, 0.2);
 }
 
-a:hover{
-    padding-left: 20px;
-    color: black;
+.topnav {
+    overflow: hidden;
+    background-color: #002633;
+}
+
+.topnav a {
+    width: 33%;
+    float: left;
+    background-color: #0091c4;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
 }
 
-a:active{
-    background-color: #00bcff;
+.topnav a:hover{
+    background-color: #002633;
+    padding-left: 25px;
+    color: white;
+    text-decoration: none;
 }
 
 #card_calc{
@@ -79,7 +90,8 @@ table{
 }
 
 .btn_number:active{
-    background-color: #00bcff; 
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.05),
+                0px  0px 0px rgba(0, 0, 0, 0.2);
 }
 
 .btn_calc{
@@ -100,7 +112,9 @@ table{
 }
 
 .operator:active{
-    background-color: #00bcff;
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.05),
+                0px  0px 0px rgba(0, 0, 0, 0.2);
+
 }
 
 .btn_equals{
@@ -115,7 +129,8 @@ table{
 }
 
 .btn_equals:active{
-    background-color: #00bcff;
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.05),
+                0px  0px 0px rgba(0, 0, 0, 0.2);
 }
 
 #clear{
@@ -131,6 +146,8 @@ table{
 
 #clear:active{
     background-color: #cf7067;
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.05),
+                0px  0px 0px rgba(0, 0, 0, 0.2);
 }
 
 .display_td{
@@ -142,10 +159,5 @@ table{
 }
 
 .form_a{
-    transition-duration: 0.2s;
     border: none;
-}
-
-.form_a:focus{
-    border-bottom: 3px solid #00bcff;
 }
