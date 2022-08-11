@@ -38,6 +38,12 @@ shows the respective converted values.
 
 ![image](https://user-images.githubusercontent.com/56042071/184148046-a11b0963-2412-47c9-97b1-e32bef3cb6f0.png)
 
+## Credits
+
+This webpage was created with the help of a video tutorial:
+
+https://www.youtube.com/watch?v=7l-ZAuU8TXc
+
 ## Informações gerais
 
 Página web com um conversor unidades de peso, velocidade e calculadora.
@@ -55,7 +61,7 @@ próprio.
 
 ![image](https://user-images.githubusercontent.com/56042071/184146768-e6cc8ee8-f583-450d-a160-1fad1e7405b2.png)
 
-Conversor de peso | conversor de velocidade
+### Conversor de peso | conversor de velocidade
 
 Ambos seguem os mesmos princípios onde o usuário insere um valor com unidade predefinida (libras e milhas nesse caso) e a página exibe
 os respectivos valores convertidos.
@@ -63,3 +69,9 @@ os respectivos valores convertidos.
 ![image](https://user-images.githubusercontent.com/56042071/184147672-6931f9c4-4fd9-4575-9af5-466910edb7b6.png)
 
 ![image](https://user-images.githubusercontent.com/56042071/184148046-a11b0963-2412-47c9-97b1-e32bef3cb6f0.png)
+
+## Créditos
+
+Essa página foi criada com a ajuda de um tutorial:
+
+https://www.youtube.com/watch?v=7l-ZAuU8TXc
