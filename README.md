@@ -2,9 +2,17 @@
 
 ## Table of contents | Tabela de conteúdo
 
-# English
+English
 
-## General Info
+* [General info](#general-info)
+* [Functionalities](#functionalities)
+
+Português
+
+* [Informações gerais](#informações-gerais)
+* [Funcionalidades](#funcionalidades)
+
+## General info
 
 Webpage with a weight unit converter, speed unit converter, and calculator.
 
@@ -29,8 +37,6 @@ shows the respective converted values.
 ![image](https://user-images.githubusercontent.com/56042071/184147672-6931f9c4-4fd9-4575-9af5-466910edb7b6.png)
 
 ![image](https://user-images.githubusercontent.com/56042071/184148046-a11b0963-2412-47c9-97b1-e32bef3cb6f0.png)
-
-# Português
 
 ## Informações gerais
 
