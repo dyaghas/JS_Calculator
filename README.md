@@ -1,4 +1,4 @@
-# JS_Calculator
+# JS Calculator | Calculadora JS
 
 ## Table of contents | Tabela de conteúdo
 
@@ -43,6 +43,8 @@ shows the respective converted values.
 This webpage was created with the help of a video tutorial:
 
 https://www.youtube.com/watch?v=7l-ZAuU8TXc
+
+# Português
 
 ## Informações gerais
 
